@@ -358,3 +358,7 @@ PRODUCT_PACKAGES += android.hardware.thermal@1.0-impl \
 PRODUCT_PACKAGES += init.nubia.rc
 
 PRODUCT_PACKAGES += android.hardware.biometrics.fingerprint@2.1-service
+
+PRODUCT_PACKAGES += \
+    vendor.qti.ims.rcsconfig@1.1.vendor \
+    libusb \
