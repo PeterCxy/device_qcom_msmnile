@@ -239,7 +239,7 @@ service vendor.mdm_helper /vendor/bin/mdm_helper
     disabled
 
 service vendor.mdm_launcher /vendor/bin/sh /vendor/bin/init.mdm.sh
-    class main
+    class late_start
     oneshot
 
 
